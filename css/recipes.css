@@ -1,3 +1,7 @@
+/* *{
+    border: 1px red solid;
+} */
+
 h1 {
     text-align: center;
     text-decoration: underline;
@@ -29,4 +33,23 @@ ul {
 ul li::before {
     content: "\2022";
     color: #ff5722;
+}
+
+/* Divs and Inline blocks fixing up the layout */
+.parent {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.4fr 1fr;
+    column-gap: 5px;
+}
+
+.prent2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.iOfFood {
+    border: 2px #ff3d00 solid;
 }
