@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #ff3d00;
+    color: white;
+}
+
+.inter-head {
+    color: #ff5722;
+}
+
+p {
+    font-size: 20px;
+}
+
+ol {
+    font-size: 18px;
+}
+
+/* This is to add a colored bullet by making 
+the list style as none and adding the bullet using
+the '2022' for the list style of the bullet */
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ff5722;
+}
